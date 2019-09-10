@@ -2,13 +2,13 @@
 
 Play a command line battle game.
 
-#Combatant	Types	
+#  Combatant	Types	
 There	are	3	types	of	combatant:	swordsman,	brute	and	grappler.	Each	type	has	
 strengths	and	weaknesses.	At	the	start	of	a	battle,	when	combatants	are	created,	every	
 property	must	be	randomly	determined	between	the	maximum	and	minimum	values	
 allowed	for	that	type.
 	
-#Battle/Game	Flow	
+# Battle/Game	Flow	
 The	program	runs	on	the	command	line.		When	the	program	starts,	it	asks	for	the	names	
 of	two	combatants	and	assigns	them	a	type	of	battler	at	random.		The	properties	are	
 then	determined	randomly	for	each	fighter	as	above.		
@@ -38,7 +38,7 @@ When	a	grappler	evades	an	attack	their	opponent	is	dealt	10	damage.
 When	a	battle	ends,	the	program	should	declare	the	winner	by	name,	or	announce	the	
 result	as	a	draw.	
 
-#How to Play 
+# How to Play 
 
 In your command line enter 'php PlayGame.php Playerfirstname Playerlastname' with the a space between each name
 
